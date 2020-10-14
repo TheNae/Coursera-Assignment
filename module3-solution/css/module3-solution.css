@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+  background-color: #951C49;
+}
+
+h1 {
+	margin: 10px 0px 5px 50px;
+}
+
+
+.navbar-brand h1 { /*Restaurant Name*/
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-light {
+  background-color: #f6b319!important;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.navbar-header, .navbar-brand {
+  width: 100%;
+}
+
+.container {
+	background-color: #f6b319;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.navbar-brand {
+  padding: 0px;
+  margin: 20px 0px 10px 0px;
+}
+
+#company-name a {
+  color: #000;
+}
+
+.nav-item a {
+  text-align: center;
+  color: #fff;
+  border: 1px solid #ffffff50;
+}
+
+.nav-item a:hover {
+  background-color: #483d8b;
+}
+
+#menu-div ul {
+  border-top: 1px solid #000;
+  background-color: teal;
+}
+
+#menu-div a {
+  color: #ffffff;
+}
+
+
+#humburgurr-wrapper {
+  float: right;
+  margin: 0px 20px 20px 0px;
+}
+
+#humburgurr {
+  border: 1px solid #951C49;
+}
+
+.main-content h2 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+#tall-grid {
+  margin: 10px 30px 30px 30px;
+}
+
+
+.section-titles {
+  background-color: #f6b319;
+	padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px #61122f;
+  margin: 10px auto 10px auto;
+}
+
+/* Small Devices */
+@media (min-width: 1px) and (max-width: 767px) {
+
+  .navbar-brand {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+  }
+
+}
+
+
